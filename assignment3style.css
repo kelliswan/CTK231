@@ -1,0 +1,61 @@
+/*Stylesheet for assigment3.html*/
+
+
+h1{
+    color:purple;
+    background-color: pink;
+}
+
+h2{
+    color: pink;
+    background-color: purple;
+}
+
+p{ 
+    color:purple;
+}
+
+h3{
+    color:blueviolet;
+    background-color:pink;
+}
+
+.paragraphstyle{
+    color:blueviolet;
+    background-color:pink;
+}
+
+#progressid{
+    color:pink;
+    background-color:blueviolet;
+}
+
+.blueviolet{
+    background-color:blueviolet;
+}
+
+.spanstyle{
+    color:blue;
+}
+
+a{
+    color:#ff0000;
+    text-decoration: none;
+}
+
+a:link {
+    color: #ff0000;
+}
+
+a:visited {
+    color: #44ff00;
+}
+
+a:active {
+    color: #cc00ff;
+}
+
+a:hover {
+    color: hsl(58, 100%, 50%);
+    text-decoration: underline;
+}
