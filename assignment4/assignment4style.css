@@ -1,0 +1,65 @@
+/*style sheet for assignment 4*/
+
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+     background-image: url(Pink\ Stars.jpeg);
+}
+
+h1,h2,h3,h4{
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+header{
+    font-style:italic;
+}
+
+h1 {
+  color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+h2{
+    color: orange;
+  font-style: italic;
+  font-weight: normal;
+}
+
+
+h3{
+    color:orange;
+    font-style:italic;
+    font-weight: normal;
+}
+
+h4{
+    color:orange;
+    font-style:italic;
+    font-weight: normal;
+}
+
+p{ 
+    color:black;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.textjustify {
+    text-align: justify;
+}
+
+.imgbox {
+    border: 7px solid black;
+    padding: 10px;
+    margin: 20px;
+    background-color: yellow;
+}
