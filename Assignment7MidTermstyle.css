@@ -1,0 +1,188 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, Georgia, sans-serif;
+    background-color: #ccc;
+    color: black;
+}
+
+/* General link */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #2d73b8, #4180c1);
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 a {
+    font-size: 24px;
+    color: #b0d4f1;
+    transition: color 0.3s ease;
+    font-family: Helvetica, Arial, Georgia, sans-serif;
+}
+
+header h1 a:hover {
+    color: #ffffff;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #1f5a9a, #2f73b8);
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav li {
+    width: 150px;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #336699;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Helvetica, Arial, Georgia, sans-serif;
+}
+
+nav a:hover {
+    background-color: #4a90e2;
+    color: yellow;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+/* Main content layout */
+main {
+    display: flex;
+    max-width: 960px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 0;
+    border: 5px solid blue; /* Outer border around main content */
+}
+
+/* Sidebar */
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    border-right: 5px solid blue;
+    font-family: Helvetica, Arial, Georgia, sans-serif;
+}
+
+.sidebar h2 {
+    color: #1d4d7d;
+    margin-bottom: 10px;
+    border-bottom: 5px solid blue;
+    padding-bottom: 5px;
+    font-weight: bold; 
+}
+
+/* Main content area */
+.content {
+    width: 70%;
+    padding: 20px;
+    font-family: Helvetica, Arial, Georgia, sans-serif;
+}
+
+.content h2 {
+    color: #1d4d7d;
+    margin-bottom: 10px;
+    border-bottom: 5px solid blue;
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+
+/* Paragraph styles */
+.justified {
+    text-align: justify;
+}
+
+.content p,
+.sidebar p {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+/* Main image */
+.main-img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border: 1px solid black;
+}
+
+/* Link text  */
+.link-text {
+    color: red;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: red;
+    color: white;
+    text-align: left;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+    border-top: 1px solid black;
+    font-family: Helvetica, Arial, Georgia, sans-serif;
+}
+
+footer img {
+    height: 60px;
+}
+
+
+/* ---------- GALLERY PAGE ONLY ---------- */
+.gallery-page .gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 40px;
+}
+
+.gallery-page .profile {
+  width: 30%;
+  background-color: #f4f4f4;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.gallery-page .profile h2 {
+  border-bottom: 2px solid #003366;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.gallery-page .profile img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.gallery-page .link-red {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
