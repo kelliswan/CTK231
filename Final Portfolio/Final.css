@@ -1,0 +1,246 @@
+body {
+    font-family: "New Rocker", system-ui;
+}
+
+
+img {
+  display: block;          
+  margin-left: auto;      
+  margin-right: auto;
+}
+
+h1 {
+ font-family: "Manufacturing Consent", system-ui;
+    font-style: normal;
+  font-weight: normal;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    text-shadow: 5px 5px 7px violet;
+
+}
+
+
+h2 {
+    font-family: "New Rocker", system-ui;
+    font-style: normal;
+    font-weight: bold;
+        padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 5px solid black;
+    text-align: center;
+   
+
+}
+
+
+.content-box {
+  background-color: white;        
+  padding: 40px;                  
+  margin: 30px;
+
+}
+
+
+
+.textcenter {
+    text-align: center;
+}
+
+
+ nav {
+      font-weight: normal; 
+        border-radius: 10px;
+    
+    }
+
+nav ul {
+    text-align: center; 
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+    border-radius: 10px;
+}
+
+nav li {
+    font-style: normal;
+    font-weight: normal;
+  width: 150px;
+  padding: 0px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color:purple;
+  display: inline-block;
+    border-radius: 17px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+background-color:purple;
+border-radius: 17px;
+box-shadow: 10px 10px 10px violet;
+transition: background-color 1s
+
+}
+
+
+nav li a:hover{
+  background-color:pink;
+
+}
+
+nav a:hover {
+      color: white;
+      text-decoration: none;
+    }
+
+
+footer {
+ font-family: "Manufacturing Consent", system-ui;
+    font-style:italic;
+    font-weight:normal;
+    text-align: center; 
+    font-size: large;
+    color:white;
+background-color: purple;
+    padding: 40px;
+    border:white 5px solid;
+    border-radius: 17px;
+    box-shadow: 17px 17px 17px violet;
+}
+
+
+footer a {
+    color:pink
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+
+a:hover {
+  color: pink;
+  text-decoration: underline;
+}
+
+
+
+.bottom-section {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;           
+  gap: 20px;                     
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.bottom-section img {
+  width: 30%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px violet;
+}
+
+.bottom-section .content-box {
+  width: 35%;
+  min-width: 280px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#myCarousel, #secondCarousel {
+  margin-bottom: 24px;
+  border: 3px solid black;
+}
+
+#myCarousel .f-carousel__slide, #secondCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: #eee;
+}
+
+.f-carousel {
+  --f-arrow-pos: 10px;
+
+  --f-arrow-width: 38px;
+  --f-arrow-height: 38px;
+
+  --f-arrow-svg-width: 16px;
+  --f-arrow-svg-height: 16px;
+  --f-arrow-svg-stroke-width: 2.5;
+
+  --f-arrow-color: #e90e0e;
+  --f-arrow-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-arrow-border-radius: 50%;
+  --f-arrow-bg: #fff;
+  --f-arrow-hover-bg: #f9f9f9;
+  --f-arrow-active-bg: #f0f0f0;
+}
+
+.video-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+p.aboutme {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px violet;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    color: #2c2c2c;
+    white-space: pre-wrap; }
+
+p.music {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px violet;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    color: #2c2c2c;
+    white-space: pre-wrap; }
+
+
+
+
+
+p.special {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;             
+    line-height: 1.8;             
+    font-weight: 700;             
+    text-align: center;          
+    text-shadow: 2px 2px 4px violet;  
+    max-width: 800px;             
+    margin: 2rem auto;           
+    padding: 1rem 2rem;           
+    color: #2c2c2c;               
+    background-color: #fefefe;   
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    white-space: pre-wrap;       }
